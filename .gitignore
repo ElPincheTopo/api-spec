@@ -1,0 +1,6 @@
+*.sublime-*
+*.pyc
+EXTRAS
+/.virtualenv*
+*.egg-info
+/VERSION

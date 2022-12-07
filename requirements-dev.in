@@ -1,0 +1,8 @@
+autopep8
+flake8
+flask
+mypy
+pip  # To keep the version of pip updated
+pip-tools
+pytest
+setuptools
