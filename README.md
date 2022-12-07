@@ -1,4 +1,4 @@
-# api-gen
+# api-spec
 
 Automatically generate the OpenAPI spec for a flask API from the type hints in the routes.
 

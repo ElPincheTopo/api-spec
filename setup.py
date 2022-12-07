@@ -56,7 +56,7 @@ def get_requirements(requirements_file: str) -> list[str]:
 
 
 setuptools.setup(
-    name='api-gen',
+    name='api-spec',
     version=version(),
     # don't use multi-line descriptions!
     description='Automatic OpenAPI spec generation from python type hints',
@@ -70,7 +70,7 @@ setuptools.setup(
     include_package_data=True,
     entry_points={
         'gui_scripts': [
-            'api-gen = src.main:main',
+            'api-spec = src.main:main',
         ]
     },
     install_requires=get_requirements('requirements.txt'),
