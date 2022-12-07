@@ -67,6 +67,7 @@ setuptools.setup(
     maintainer='Roberto Lapuente',
     maintainer_email='roberto@lapuente.me',
     packages=setuptools.find_packages(include=('api_spec*',)),
+    package_dir={'': 'src'},
     include_package_data=True,
     entry_points={
         'console_scripts': [
