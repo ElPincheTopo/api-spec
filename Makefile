@@ -8,7 +8,8 @@ DEFAULT: tasks
 clean: nuke-pyc
 
 developer-setup:
-	# virtualenv --python=/usr/bin/python3.10 .virtualenv
+	virtualenv --python=/usr/bin/python3.10 .virtualenv
+	curl -sS https://bootstrap.pypa.io/get-pip.py | .virtualenv/bin/python3
 	source .virtualenv/bin/activate
 	.virtualenv/bin/pip install -r requirements.txt -r requirements-dev.txt
 	.virtualenv/bin/pip install -e .
